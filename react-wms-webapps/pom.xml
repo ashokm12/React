@@ -1,0 +1,132 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.frugalis</groupId>
+    <artifactId>wms</artifactId>
+    <version>1.0</version>
+    <packaging>war</packaging>
+
+    <!-- <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <npm.output.directory>${basedir}/frontend/build</npm.output.directory>
+    </properties> -->
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <!-- Standard plugin to generate WAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <directory>${basedir}/frontend/dist</directory>
+                        </resource>
+                    </webResources>
+                    <webXml>${basedir}/web.xml</webXml>
+                </configuration>
+            </plugin>
+            <plugin> 
+                <artifactId>maven-clean-plugin</artifactId> 
+                <version>3.1.0</version> 
+                <configuration> 
+                    <filesets> 
+                        <fileset> 
+                            <directory>${basedir}/target</directory>  
+                            <directory>${basedir}/build</directory> 
+                            <directory>${basedir}/frontend/dist</directory>
+                        </fileset> 
+                    </filesets> 
+                </configuration> 
+            </plugin> 
+
+             <plugin> 
+                <groupId>com.github.eirslett</groupId> 
+                <artifactId>frontend-maven-plugin</artifactId> 
+                <!-- <version>1.11.2</version>  -->
+                <executions> 
+                    <execution> 
+                        <id>Install Node and NPM</id> 
+                        <goals> 
+                            <goal>install-node-and-npm</goal> 
+                        </goals> 
+                        <configuration> 
+                            <nodeVersion>v14.16.0</nodeVersion> 
+                        </configuration> 
+                    </execution>
+                     <execution> 
+                        <id>npm install</id> 
+                        <goals> 
+                            <goal>npm</goal> 
+                        </goals> 
+                    </execution>  
+                    <execution> 
+                        <id>npm run build</id> 
+                        <goals> 
+                            <goal>npm</goal> 
+                        </goals> 
+                        <configuration> 
+                            <arguments>run build</arguments> 
+                        </configuration>  
+                    </execution> 
+                </executions> 
+            </plugin>  
+            
+            <plugin>
+                <groupId>com.github.eirslett</groupId>
+                <artifactId>frontend-maven-plugin</artifactId>
+                <!-- <version>1.6</version> -->
+                <configuration>
+                    <workingDirectory>frontend</workingDirectory>
+                    <installDirectory>build</installDirectory>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>local</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+
+                        <configuration>
+                            <environmentVariables>
+                                <PUBLIC_URL> https://cognisite.scout-ca.net/${project.artifactId}</PUBLIC_URL>
+                                <REACT_APP_ROUTER_BASE>/${project.artifactId}</REACT_APP_ROUTER_BASE>
+                            </environmentVariables>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>prod</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+
+                        <configuration>
+                            <environmentVariables>
+                                <PUBLIC_URL>http://frugalisminds.com/${project.artifactId}</PUBLIC_URL>
+                                <REACT_APP_ROUTER_BASE>/${project.artifactId}</REACT_APP_ROUTER_BASE>
+                            </environmentVariables>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
