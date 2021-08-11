@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WMS Layer App</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css" /> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .bell-playground {
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      pointer-events: none;
+      visibility: hidden;
+    }
+    .switch-layer {
+        top: 65px;
+        left: .5em;
+      }
+    body {
+      font-family: 'Lato', sans-serif !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    window.global = window;
+    var exports = {}
+  </script>
+</body>
+
+</html>
