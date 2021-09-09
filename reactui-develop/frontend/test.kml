@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>-117.97933169794179</longitude>
+            <latitude>41.63142846306968</latitude>
+            <altitude>500</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>800000</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Folder>
+            <name>nics.collaborationfeed:R32</name>
+            <LookAt>
+                <longitude>-117.97933169794179</longitude>
+                <latitude>-14.734913973478314</latitude>
+                <altitude>500</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>800000</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e46">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e46</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2730&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#FFA500&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;7.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;managementActionPointStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607101869&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 4, 2020 5:11:39 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;207&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Management Action Point","layerid":32,"length":"1544km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Management Action Point&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1544km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-119.06648268019089</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.625</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/geoserver/kml/icon/collabRoomStyle?1.0.0=&amp;1.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff0080ff</color>
+                        <width>4.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-117.3278943876877,40.14067414645229</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-120.29631992523743,42.53705131386816 -120.38973013207678,42.53705131386816 -120.48132038472757,42.51852383922838 -120.65684015263092,42.44385926856315 -120.94447756345109,42.341519283044896 -121.20629701950368,42.25843705593546 -121.37275934098041,42.169881326186186 -121.58510143781453,42.012495307273184 -121.7573198934689,41.79577160793611 -121.8311338493945,41.68659664065524 -121.88535155440637,41.598952135638214 -121.92555984461814,41.52421324633319 -121.98553368380769,41.362564915837304 -122.0392858191434,41.190481993015915 -122.11458113312945,40.847101187185196 -122.16134972332313,40.56224758208857 -122.1920349974321,40.3962244330348 -122.1920349974321,40.25592714183947 -122.188352764539,40.15374787944224 -122.1264319976129,40.031227683423154 -121.96128173613258,39.87971620696019 -121.6120198299984,39.75432836773334 -121.14678874999028,39.73418389727567 -120.35595516829888,39.765195474148555 -119.04588442416758,39.93929019173593 -118.34714898931912,40.03171379610618 -117.24675389751316,40.149348226728726 -116.80547849356807,40.15497714322767 -116.32975093358887,40.15077167497139 -116.07085186914114,40.125986474292745 -115.8940623657574,40.1150146811893 -115.81474622275019,40.122394135220965 -115.80429206729512,40.199636077215644 -115.80429206729512,40.35014693898967 -115.84826723943199,40.69917941463718 -115.8605413490756,41.180862517692496 -115.88508956836277,41.45741359252696 -115.89706740639427,41.78513703025592 -115.95170835656626,42.08550489241072 -116.02116288734257,42.202528167985065 -116.17818684174853,42.348213676594625 -116.30257859430891,42.41721193270953 -116.43412319007543,42.4594425516245 -116.55153139749378,42.48741402579642 -116.74508140921839,42.50747959965387 -117.00905941558763,42.511098830991045 -117.18157414285412,42.511098830991045 -117.56554215211845,42.511098830991045 -117.85571903389935,42.49577806462715 -118.14009745698655,42.46309578633661 -118.52575844689139,42.41039989332436 -118.81534278544812,42.3638207317462 -119.0422021912745,42.32966157525273 -119.36369921490456,42.28230232764722 -119.57532179496648,42.259940646799926 -119.77932596214617,42.24167585601115 -119.96479199131245,42.23171101369417 -120.09388176515021,42.23171101369417 -120.21128997256858,42.247252973944 -120.39743319399103,42.28903433286337 -120.48711884342127,42.31511014599664 -120.56207556127919,42.33595050611338 -120.6113412979176,42.35756586444652 -120.67478574742017,42.38236275318394 -120.70864536023008,42.389271617274275 -120.71698328988451,42.39136600958455 -120.71698328988451,42.39324152547432 -120.71698328988451,42.395148242508796 -120.71698328988451,42.39705490161463</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e45">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e45</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2730&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;completedDozerLineStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607101877&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 4, 2020 5:11:47 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;208&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Completed Dozer Line","layerid":32,"length":"147.18km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Completed Dozer Line&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;147.18km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-119.18413619925613</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>1.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-119.16611682627651,42.40144750943678</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-119.88048155541577,42.47767537756111 -119.88048155541577,42.47767537756111 -119.74533937578823,42.447544643429794 -119.64439540509869,42.38739598275795 -119.57299394658581,42.35581439002389 -119.50743327128261,42.328065776358095 -119.44830592241331,42.30143186437032 -119.39070225612045,42.27181149049852 -119.35701194137462,42.25602497070277 -119.35159440332505,42.25602497070277 -119.33331021240765,42.26106831641983 -119.22030375465461,42.3540003114819 -119.07496136666808,42.481265119811916 -118.93537511285925,42.574120944618215 -118.84441972794865,42.629419409239944 -118.74571895660776,42.6790682724367 -118.65717606910985,42.711699741739245 -118.59559389831182,42.73654290281413 -118.54649745973748,42.76833633148266 -118.51339968821578,42.79741163151689 -118.49545409342652,42.81526628962198 -118.48415344765122,42.82594556908879 -118.4813600295944,42.82991878360401</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e44">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e44</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphic&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;/symbology/drawmenu/points/pms936/936-point-ir-isolated-heat-source.png&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicheight&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;32.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicwidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;31.0&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607460941&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 8:56:14 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;231&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;marker&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"IR Isolated Heat Source","layerid":32}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;IR Isolated Heat Source&lt;/span&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-119.76376891877331</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>ffffffff</color>
+                        <scale>1.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/symbology/drawmenu/points/pms936/936-point-ir-isolated-heat-source.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-119.76376891877334,39.34119528130025</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e43">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e43</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphic&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;/symbology/drawmenu/points/pms936/936-point-ir-isolated-heat-source.png&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicheight&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;32.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicwidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;31.0&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607460943&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 8:56:15 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;232&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;marker&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"IR Isolated Heat Source","layerid":32}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;IR Isolated Heat Source&lt;/span&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-119.82087258716197</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>ffffffff</color>
+                        <scale>1.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/symbology/drawmenu/points/pms936/936-point-ir-isolated-heat-source.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-119.82087258716193,42.71553792901997</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e42">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e42</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphic&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;/symbology/drawmenu/markers/Hazard_Points/HAZARD_RESPND_WHITE__SOLID-_DETAIL_Hazard--Fire--Collapse-Likely_32x32.png&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicheight&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;32.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;graphicwidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;32.0&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607461177&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 9:00:09 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;233&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;marker&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Collapse Likely","layerid":32}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Collapse Likely&lt;/span&gt;&lt;/li&gt;
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-119.74539024544293</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>ffffffff</color>
+                        <scale>1.0</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/symbology/drawmenu/markers/Hazard_Points/HAZARD_RESPND_WHITE__SOLID-_DETAIL_Hazard--Fire--Collapse-Likely_32x32.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-119.74539024544296,43.008625339246834</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e41">
+                <name>Test</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;fillcolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;labelsize&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;30.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;labeltext&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Test&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607461288&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 9:02:00 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;234&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;label&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"","layerid":32}&lt;/span&gt;&lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-120.8563580225902</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>3.0</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-120.85635802259021,43.30251455847482</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e40">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e40</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#FFA500&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;7.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;managementActionPointStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607461341&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 9:02:54 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;235&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Management Action Point","layerid":32,"length":"33.93km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Management Action Point&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;33.93km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-117.54753516083244</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.625</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/geoserver/kml/icon/collabRoomStyle?1.0.0=&amp;1.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff0080ff</color>
+                        <width>4.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-117.58755119337636,43.62122337285992</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-117.43244048654668,43.673648859973426 -117.43244048654668,43.673648859973426 -117.51889142146055,43.673648859973426 -117.53115782530062,43.673648859973426 -117.56197036190913,43.653751459819716 -117.56871060429226,43.64648135860569 -117.59278289851767,43.6142096678587 -117.59952314090077,43.606934781756145 -117.63381046084966,43.559990625098195 -117.63690846045432,43.555561186383606 -117.65294270165143,43.527733225685076 -117.66223670046541,43.51042911042659 -117.66223670046541,43.50399192775459 -117.66223670046541,43.479876756688775 -117.66223670046541,43.47787178759438 -117.66223670046541,43.469456267498266 -117.66223670046541,43.46757248877638</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3f">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3f</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2788&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#FFA500&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;fireSpreadPrediction&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607461377&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 8, 2020 9:03:29 PM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;236&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Fire Spread Prediction","layerid":32,"length":"131.29km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Fire Spread Prediction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;131.29km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-122.30493409825002</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff0080ff</color>
+                        <width>2.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-122.594963773698,42.52379313339907</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-122.45149290011457,43.16406828793838 -122.45149290011457,43.10831442290284 -122.45856806137388,43.09030958566437 -122.48427308512063,43.03696710347601 -122.49130638152043,43.01900251407525 -122.50855470364368,42.97892285152086 -122.51529494602678,42.96428067547257 -122.52940340368588,42.92088506886545 -122.54321880732829,42.88080279787279 -122.54321880732829,42.873439794033885 -122.54660986094957,42.866075911634844 -122.55678302181353,42.8332652807889 -122.57122639834877,42.78301807208279 -122.57122639834877,42.77564341040686 -122.57491050598678,42.738326455523435 -122.57830155960806,42.707293863413895 -122.5816926132294,42.69252563584078 -122.5816926132294,42.68514020485007 -122.58847472047202,42.64160988071108 -122.59186577409335,42.607540166988116 -122.59186577409335,42.59564526306893 -122.594963773698,42.57110870585606 -122.594963773698,42.56907383416966 -122.594963773698,42.54906072673357 -122.594963773698,42.53715466343609 -122.594963773698,42.53268159187339 -122.594963773698,42.50886094825633 -122.59190763895286,42.50435498676348 -122.56967739854643,42.47604641899401 -122.56050899431105,42.467029441983065 -122.52676591753593,42.44213337367455 -122.51579732434107,42.43403847566102 -122.46216843929281,42.399855359327624 -122.43751003703406,42.3895287660082 -122.38727220560715,42.36726206693181 -122.36717707303637,42.35736322186601 -122.35712950675098,42.35241321450291 -122.3470819404656,42.34993806461652 -122.29228083935071,42.33239264637762 -122.27767000337737,42.32970005900979 -122.26305916740404,42.32700735637739 -122.2484483314307,42.32431453848147 -122.13700407538195,42.31536860338326 -122.09748364799273,42.31536860338326 -122.03690519626376,42.31536860338326 -122.03137903480679,42.31536860338326 -122.02308979262136,42.31536860338326 -122.01090711850033,42.33428048372111</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3e">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3e</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2808&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;completedDozerLineStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607659957&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 4:13:11 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;270&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Completed Dozer Line","layerid":32,"length":"196.03km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Completed Dozer Line&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;196.03km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-115.83008404138621</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>1.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-115.77921531930679,43.154963638605984</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-116.65657435033825,43.03746426853315 -116.54215416505998,42.985261061872386 -116.47393595066302,42.93233694725393 -116.3921785500165,42.878013049573 -116.3159653858757,42.83006471090349 -116.2866773538996,42.81524267811864 -116.2617282896237,42.81524267811864 -116.14128176031744,42.87118239137878 -116.01906750342958,42.95121843732206 -115.83100539412912,43.10393920061547 -115.63591255012933,43.296147896107975 -115.44708710391869,43.48646842376665 -115.26826538879452,43.649220061022696 -115.13178878437373,43.75163428390792 -115.0527633263532,43.81179280938583 -115.00857013681455,43.83709697845515 -114.98948671405924,43.84309536290224</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3d">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3d</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2808&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;proposedDozerLineStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607659997&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 4:13:51 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;276&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Proposed Dozer Line","layerid":32,"length":"295.67km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Proposed Dozer Line&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;295.67km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-115.0607902490159</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>4.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-115.05702013884132,41.04232153765324</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-116.51728545203777,41.06215503077294 -116.45252234155018,41.03815913776079 -116.31090325689217,40.96790878683938 -116.09025871421369,40.84928083054909 -115.96997288741481,40.78451817506722 -115.89379989890088,40.73792906691711 -115.84116982772304,40.70047588817078 -115.80919002874779,40.68088831932679 -115.80147630839193,40.67887744988245 -115.79661505754271,40.67887744988245 -115.74924799348258,40.68999740736205 -115.56062342540619,40.78327094978575 -115.36010687178121,40.88589085399473 -115.02604653449576,41.058307793653775 -114.69648586741785,41.201412505591826 -114.37443804256155,41.34664806218937 -114.02989186666737,41.49869219305575 -113.79791779721621,41.63936200651532 -113.71350880519735,41.68354354031221 -113.64484865890502,41.71968860207556 -113.60503461269334,41.74238510834131 -113.58008554841744,41.75482430756451 -113.58008554841744,41.756832337846646</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3c">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3c</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2808&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;containedFireEdge&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607659965&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 4:13:18 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;271&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Contained Fire Edge","layerid":32,"length":"182.23km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Contained Fire Edge&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;182.23km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-115.53009394978483</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>2.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-115.42179961454111,42.863183075279665</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-116.29969425700011,42.565506045782634 -116.29969425700011,42.565506045782634 -116.18680074554226,42.565506045782634 -116.1210734200102,42.56056439887142 -116.05389977191142,42.55088710640405 -116.01324203753585,42.54656587350019 -115.95330000227067,42.544197947782145 -115.90846400270236,42.544197947782145 -115.85965061607557,42.55396506246818 -115.81521637277577,42.57521065606359 -115.7488864128409,42.6162314459905 -115.64005063969523,42.6904555834811 -115.51277425382388,42.77815730609647 -115.42430752349284,42.86096443550733 -115.34186713718981,42.93389591883439 -115.25388251438099,43.008033813834494 -115.09860371659286,43.17960044437234 -115.0205826492437,43.26022986361242 -114.91259056426193,43.37098690709625 -114.82717718157176,43.46145348977544 -114.80399584487739,43.482883002596694 -114.79869266213274,43.488479664421526 -114.79338947938808,43.49629080452799 -114.79089859052317,43.50019599572539 -114.78824699915087,43.50590761153015 -114.77418552975219,43.52458315303271 -114.75924019656277,43.548727505279544 -114.7475089135216,43.57003872735832</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3b">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3b</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2808&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#FFA500&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;fireSpreadPrediction&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607659970&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 4:13:24 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;272&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Fire Spread Prediction","layerid":32,"length":"191.32km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Fire Spread Prediction&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;191.32km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-115.10782929066895</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-line.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff0080ff</color>
+                        <width>2.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-115.00741771062637,42.64958558459809</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-115.88291230402362,42.37394618467658 -115.79890506827333,42.37394618467658 -115.71586204756746,42.360202738558776 -115.58280037142924,42.32768737627472 -115.52872397768466,42.31363672678918 -115.47842409286427,42.3067142174729 -115.42816438367075,42.3067142174729 -115.38762717617574,42.3090911305295 -115.33178305484961,42.34342750540279 -115.20800194851451,42.43828958970139 -115.11917363754178,42.51062294103922 -115.0330772691951,42.6105841876881 -114.96409571788791,42.71543310216934 -114.80857586633867,42.93313114525438 -114.67575524396155,43.06470863234768 -114.56575437763712,43.17116245167661 -114.47085954700954,43.26178050964604 -114.40758293471555,43.32400778291267 -114.36624221468348,43.36111496011131 -114.32964221862007,43.38576261777356 -114.31903585313079,43.389674949988276</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e3a">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e3a</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2808&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#FFA500&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;7.0&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;dashstyle&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;managementActionPointStyle&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607659977&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 4:13:31 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;273&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;sketch&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"Management Action Point","layerid":32,"length":"188.64km"}&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;description&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Management Action Point&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;length&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;188.64km&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-114.95652667061188</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.625</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>https://dev1.scout-ca.net/geoserver/kml/icon/collabRoomStyle?1.0.0=&amp;1.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff0080ff</color>
+                        <width>4.0</width>
+                    </LineStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-114.87061200024787,42.439819913806346</coordinates>
+                    </Point>
+                    <LineString>
+                        <coordinates>-115.75531451313746,42.103722691213434 -115.67721309453457,42.095972243009975 -115.6112447152414,42.07951430479056 -115.54744581979831,42.06281348283269 -115.52189412111959,42.06281348283269 -115.47159423629923,42.06281348283269 -115.42137470273255,42.06281348283269 -115.3786278357606,42.074444876908984 -115.32455144201602,42.10190440188177 -115.25271742120226,42.14663109714966 -115.11728538307966,42.23155754058324 -114.97293435579564,42.34503099552972 -114.88113304843579,42.4306987823337 -114.78193942573489,42.516693833182615 -114.66587203975561,42.62445010059226 -114.53409598367669,42.75503403655086 -114.43076427140991,42.863703131369455 -114.28810062045372,43.00729934066258 -114.18119327739701,43.11323700465379 -114.15423543177843,43.135405246737484 -114.14378976879655,43.141297832278504</coordinates>
+                    </LineString>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e39">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e39</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2810&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;fillcolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;opacity&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;0.4&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607662816&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 5:00:50 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;278&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;polygon&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"","layerid":32,"area":"1120.84km²"}&lt;/span&gt;&lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-117.79037697177401</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-poly.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>3.0</width>
+                    </LineStyle>
+                    <PolyStyle>
+                        <color>66000000</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-117.85545426387104,43.06781135481949</coordinates>
+                    </Point>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <tessellate>1</tessellate>
+                                <coordinates>-118.09326544412906,43.23210056990666 -118.09326544412906,43.19380805491361 -118.09326544412906,43.17898406470615 -118.09326544412906,43.127822001713255 -118.09326544412906,43.108229097129886 -118.09326544412906,43.098388591840134 -118.09326544412906,43.06178555075126 -118.09326544412906,43.049496210567504 -118.09326544412906,43.042213249394685 -118.09326544412906,43.0220084194853 -118.09326544412906,43.01591226823333 -118.08869667235213,42.989788002169945 -118.08641228646364,42.97976135412729 -118.08641228646364,42.97976135412729 -118.06708067088252,42.95406060418215 -118.06708067088252,42.95406060418215 -118.05591573485263,42.9485429459744 -118.03252933431946,42.94231408595863 -118.0157105432156,42.93882314051809 -117.99212425891722,42.933680429224005 -117.99212425891722,42.933680429224005 -117.98113065182896,42.9305026043227 -117.95491732375879,42.92730370708886 -117.94392371667058,42.92730370708886 -117.9160827636549,42.92563101494106 -117.87564913342904,42.92395827737329 -117.85883034232522,42.92395827737329 -117.85883034232522,42.92395827737329 -117.82656339165062,42.92395827737329 -117.82656339165062,42.92395827737329 -117.82656339165062,42.92395827737329 -117.81902491821869,42.92395827737329 -117.81902491821869,42.92395827737329 -117.80263444946891,42.92719916516029 -117.78587276801233,42.930711676789265 -117.74389717731175,42.94087174327504 -117.74389717731175,42.94087174327504 -117.73221825445697,42.94227227939983 -117.73221825445697,42.94227227939983 -117.71385750287844,42.94829213157546 -117.70283534096659,42.951531738906155 -117.70283534096659,42.951531738906155 -117.68387493809229,42.95771787013927 -117.68387493809229,42.95771787013927 -117.68387493809229,42.95771787013927 -117.68387493809229,42.95771787013927 -117.67636501948395,42.96181374996236 -117.67065405476279,42.96885551814372 -117.67065405476279,42.96885551814372 -117.66500019968885,42.97305512074579 -117.66500019968885,42.97305512074579 -117.65914646084964,42.98030450612136 -117.64703921564077,42.992315294945286 -117.6349890800791,43.00284108243976 -117.6108888089558,43.0238872481898 -117.6108888089558,43.0238872481898 -117.58656009924363,43.04498880648161 -117.58656009924363,43.04498880648161 -117.57882174204646,43.05214624260894 -117.54389919277655,43.07778512537254 -117.53556118428362,43.08391684069866 -117.52388226142885,43.091153143704815 -117.5120034548088,43.101453495078346 -117.50369400113954,43.107561994212524 -117.49161531075426,43.11494141557616 -117.48596145568033,43.11904765737203 -118.09326544412906,43.23210056990666</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e38">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e38</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2810&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;fillcolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;opacity&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;0.4&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607662822&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 5:00:55 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;279&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;circle&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"","layerid":32,"area":"991.93km²"}&lt;/span&gt;&lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-118.64652530883109</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-poly.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>3.0</width>
+                    </LineStyle>
+                    <PolyStyle>
+                        <color>66000000</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-118.64594405501988,43.416697529483805</coordinates>
+                    </Point>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <tessellate>1</tessellate>
+                                <coordinates>-118.4987724941554,43.29751674441913 -118.47490834251218,43.31574070172403 -118.45525565774585,43.33645026369515 -118.44029835417892,43.35913322326125 -118.43040473026566,43.383229158398144 -118.42581839986185,43.408143416826064 -118.42665229364317,43.43326188859213 -118.43288587837723,43.45796619002609 -118.44436566251979,43.48164887905651 -118.46080897568602,43.50372832833305 -118.48181092893356,43.52366289815386 -118.50685438447195,43.540964074760325 -118.5353226893114,43.55520826993947 -118.56651485930581,43.56604701383206 -118.59966283970914,43.573215313208166 -118.63395041723196,43.57653799116414 -118.66853331792169,43.5759338702877 -118.70255999598932,43.57141770904788 -118.73519260169275,43.56309984984833 -118.76562761197816,43.55118358628809 -118.79311561588429,43.53596030620317 -118.81697976752754,43.51780251550823 -118.83663245229383,43.49715489514539 -118.85158975586079,43.47452358889324 -118.86148337977406,43.450463962565465 -118.86606971017788,43.42556711425985 -118.86523581639653,43.40044544969263 -118.85900223166247,43.37571766507005 -118.8475224475199,43.35199350117813 -118.83107913435369,43.329858645239845 -118.81007718110614,43.30986016056994 -118.78503372556774,43.29249281737035 -118.75656542072834,43.278186680698816 -118.72537325073388,43.26729628366296 -118.69222527033058,43.260091675638 -118.65793769280776,43.256751587648374 -118.62335479211801,43.25735890130915 -118.58932811405039,43.261898545621705 -118.55669550834695,43.27025787951208 -118.52626049806156,43.28222954957377 -118.4987724941554,43.29751674441913</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+            </Placemark>
+            <Placemark id="R32.fid--2e7d058f_1764dbbfea2_-7e37">
+                <name>R32.fid--2e7d058f_1764dbbfea2_-7e37</name>
+                <description>&lt;h4&gt;R32&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;usersessionid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;2810&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokecolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;strokewidth&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;3.0&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;fillcolor&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;#000000&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;opacity&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;0.4&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;username&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;ashok.masuram@qualapps.com&lt;/span&gt;&lt;/li&gt;
+  
+  
+  
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;seqtime&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;1607662830&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;lastupdate&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;Dec 11, 2020 5:01:03 AM&lt;/span&gt;&lt;/li&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;featureid&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;280&lt;/span&gt;&lt;/li&gt;
+  
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;type&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;square&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;attributes&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;{"description":"","layerid":32,"area":"521km²"}&lt;/span&gt;&lt;/li&gt;
+  
+  
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-117.42121526879163</longitude>
+                    <latitude>41.63142846306968</latitude>
+                    <altitude>500</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>800000</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <color>00ffffff</color>
+                        <scale>0.4</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://icons.opengeo.org/markers/icon-poly.1.png</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>00ffffff</color>
+                        <scale>0.0</scale>
+                    </LabelStyle>
+                    <LineStyle>
+                        <color>ff000000</color>
+                        <width>3.0</width>
+                    </LineStyle>
+                    <PolyStyle>
+                        <color>66000000</color>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <MultiGeometry>
+                    <Point>
+                        <coordinates>-117.42081915918813,43.3667456651179</coordinates>
+                    </Point>
+                    <Polygon>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <tessellate>1</tessellate>
+                                <coordinates>-117.23450767900741,43.31459737185921 -117.34895541201956,43.50212604486332 -117.60709101741622,43.4190544448301 -117.49264328440408,43.23126837959226 -117.23450767900741,43.31459737185921</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </MultiGeometry>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

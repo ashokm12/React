@@ -1,0 +1,206 @@
+<!--
+
+    Copyright (c) 2008-2020, Massachusetts Institute of Technology (MIT)
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:
+
+    1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+
+    2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+
+    3. Neither the name of the copyright holder nor the names of its contributors
+    may be used to endorse or promote products derived from this software without
+    specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+    DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+    FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+    DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+    SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+    CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+    OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-->
+<configuration scan="true" debug="false">
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+      		<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="SIFT-ATMOSPHERE" class="ch.qos.logback.classic.sift.SiftingAppender">
+
+		<!-- never make this appender stale (defaults to 30 mins )
+		the appender by itself has no way of specifying an unbounded timout (9223372036854775807 milli)
+		so setting it to 1825000 days -->
+		<timeout>1825000 day</timeout>
+
+		<!-- the MDC value value will be assigned via Java code - default to normal -->
+		<discriminator>
+			<key>loggingContext</key>
+			<DefaultValue>main</DefaultValue>
+		</discriminator>
+
+		<!--
+			At the bare minimum, ensure uniqueness of each appender by using the discriminator key in
+				1. the appender name
+				2. the file for logging
+			NOTE: Only one appender can be specified per SiftingAppender
+		-->
+		<sift>
+			<appender name="RollingFile-${loggingContext}"
+				class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 				<file>/var/log/tomcat8/react-atm-${loggingContext}.log</file>
+
+				<!-- daily rollover -->
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<fileNamePattern>/var/log/tomcat8/react-atm-${loggingContext}-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
+					<timeBasedFileNamingAndTriggeringPolicy
+						class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+						<!--  or whenever the file size reaches 100MB -->
+						<maxFileSize>100MB</maxFileSize>
+					</timeBasedFileNamingAndTriggeringPolicy>
+					<!-- keep 10 days' worth of history -->
+					<maxHistory>10</maxHistory>
+					<maxFileSize>100MB</maxFileSize>
+					<totalSizeCap>2GB</totalSizeCap>
+				</rollingPolicy>
+				<encoder>
+      				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M\(%line\) - %msg%n</pattern>
+				</encoder>
+			</appender>
+		</sift>
+	</appender>
+
+
+	<appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+
+		<!-- never make this appender stale (defaults to 30 mins )
+		the appender by itself has no way of specifying an unbounded timout (9223372036854775807 milli)
+		so setting it to 1825000 days -->
+		<timeout>1825000 day</timeout>
+
+		<!-- the MDC value value will be assigned via Java code - default to normal -->
+		<discriminator>
+			<key>loggingContext</key>
+			<DefaultValue>main</DefaultValue>
+		</discriminator>
+
+		<!--
+			At the bare minimum, ensure uniqueness of each appender by using the discriminator key in
+				1. the appender name
+				2. the file for logging
+			NOTE: Only one appender can be specified per SiftingAppender
+		-->
+		<sift>
+			<appender name="RollingFile-${loggingContext}"
+				class="ch.qos.logback.core.rolling.RollingFileAppender">
+ 				<file>/var/log/tomcat8/react-web-${loggingContext}.log</file>
+
+				<!-- daily rollover -->
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<fileNamePattern>/var/log/tomcat8/react-web-${loggingContext}-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
+					<timeBasedFileNamingAndTriggeringPolicy
+						class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+						<!--  or whenever the file size reaches 100MB -->
+						<maxFileSize>100MB</maxFileSize>
+					</timeBasedFileNamingAndTriggeringPolicy>
+					<!-- keep 10 days' worth of history -->
+					<maxHistory>10</maxHistory>
+					<maxFileSize>100MB</maxFileSize>
+					<totalSizeCap>2GB</totalSizeCap>
+				</rollingPolicy>
+				<encoder>
+      				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M\(%line\) - %msg%n</pattern>
+				</encoder>
+			</appender>
+		</sift>
+	</appender>
+
+	<appender name="SIFT-ERROR" class="ch.qos.logback.classic.sift.SiftingAppender">
+
+		<!-- never make this appender stale (defaults to 30 mins )
+		the appender by itself has no way of specifying an unbounded timout (9223372036854775807 milli)
+		so setting it to 1825000 days -->
+		<timeout>1825000 day</timeout>
+
+		<!-- the MDC value value will be assigned via Java code - default to normal -->
+		<discriminator>
+			<key>loggingContext</key>
+			<DefaultValue>main</DefaultValue>
+		</discriminator>
+
+		<!--
+			At the bare minimum, ensure uniqueness of each appender by using the discriminator key in
+				1. the appender name
+				2. the file for logging
+			NOTE: Only one appender can be specified per SiftingAppender
+		-->
+		<sift>
+			<appender name="RollingFileError-${loggingContext}"
+				class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+				<filter class="ch.qos.logback.classic.filter.LevelFilter">
+					<level>ERROR</level>
+					<onMatch>ACCEPT</onMatch>
+					<onMismatch>DENY</onMismatch>
+				</filter>
+
+				<file>/var/log/tomcat8/react-web-${loggingContext}-error.log</file>
+
+				<!-- daily rollover -->
+				<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+					<fileNamePattern>/var/log/tomcat8/react-web-${loggingContext}-error-%d{yyyy-MM-dd}-%i.log.gz</fileNamePattern>
+					<timeBasedFileNamingAndTriggeringPolicy
+						class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+						<!-- or whenever the file size reaches 100MB -->
+						<maxFileSize>100MB</maxFileSize>
+					</timeBasedFileNamingAndTriggeringPolicy>
+					<!-- keep 10 days' worth of history -->
+					<maxHistory>10</maxHistory>
+					<maxFileSize>100MB</maxFileSize>
+					<totalSizeCap>2GB</totalSizeCap>
+				</rollingPolicy>
+
+				<encoder>
+      				<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M\(%line\) - %msg%n</pattern>
+				</encoder>
+			</appender>
+
+		</sift>
+	</appender>
+
+    <logger name="edu.mit.ll.iweb.websocket" level="TRACE">
+    	<appender-ref ref="SIFT-ATMOSPHERE" />
+  	</logger>
+    <logger name="org.atmosphere.interceptor" level="TRACE">
+    	<appender-ref ref="SIFT-ATMOSPHERE" />
+  	</logger>
+    <logger name="org.atmosphere.cache" level="TRACE">
+    	<appender-ref ref="SIFT-ATMOSPHERE" />
+  	</logger>
+    <logger name="org.atmosphere" level="TRACE">
+    	<appender-ref ref="SIFT-ATMOSPHERE" />
+  	</logger>
+
+  <!--<logger name="org.apache.cxf" level="WARN">
+    <appender-ref ref="FILE" />
+  </logger>-->
+
+	<root level="INFO">
+    	<appender-ref ref="STDOUT" />
+    	<appender-ref ref="SIFT" />
+    	<appender-ref ref="SIFT-ERROR" />
+    	<appender-ref ref="SIFT-ATMOSPHERE" />
+  	</root>
+
+</configuration>

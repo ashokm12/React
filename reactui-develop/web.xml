@@ -1,0 +1,52 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+	      http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<display-name>NICS3</display-name>
+	<description>Situation Awareness &amp; Collaboration Tool</description>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/index.html</location>
+	</error-page>
+	
+	<servlet>
+		<description>AtmosphereServlet</description>
+		<servlet-name>AtmosphereServlet</servlet-name>
+		<servlet-class>org.atmosphere.cpr.AtmosphereServlet</servlet-class>
+		<init-param>
+			<param-name>org.atmosphere.websocket.bufferSize</param-name>
+			<param-value>112400</param-value>
+		</init-param>
+		<init-param>
+			<param-name>org.atmosphere.websocket.maxTextMessageSize</param-name>
+			<param-value>112400</param-value>
+		</init-param>
+		<init-param>
+			<param-name>org.atmosphere.websocket.maxBinaryMessageSize</param-name>
+			<param-value>112400</param-value>
+		</init-param>
+		<init-param>
+			<param-name>org.atmosphere.websocket.maxIdleTime</param-name>
+			<param-value>86400000</param-value>
+		</init-param>
+		<!-- Try not to close connection if user gets disconnected for a day -->
+		<init-param>
+			<param-name>org.atmosphere.cpr.CometSupport.maxInactiveActivity</param-name>
+			<param-value>20000</param-value>
+		</init-param>
+		<init-param>
+			<param-name>org.atmosphere.cpr.AtmosphereFramework.analytics</param-name>
+			<param-value>false</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+		<async-supported>true</async-supported>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AtmosphereServlet</servlet-name>
+		<url-pattern>/mediator/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>

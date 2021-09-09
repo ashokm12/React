@@ -1,0 +1,92 @@
+#!groovy
+@Library('slack-notification@master') _ 
+
+def branchName = BRANCH_NAME
+def tag
+def env = params.environment
+
+if (branchName.contains('atmosphere')) {
+	env = "atmosphere"
+} else if (branchName.contains('nics3/')) {
+    tag = branchName.split('/')[1]
+} else {
+    tag = 'latest'
+}
+
+if (env == null) {
+  env = "dev"
+}
+
+pipeline {
+    agent {
+        node {
+            label 'master'
+            customWorkspace "/var/lib/jenkins/workspace/${JOB_NAME}"
+        }
+    }
+    parameters { 
+        choice(
+            name: 'environment', 
+            choices: 'dev\nstage\nprod', 
+            description: 'Choose an environment you wish to deploy to.')
+    }
+    stages {
+        stage ('Start') {
+            steps {
+                // send build started notifications
+                sendNotifications 'STARTED'
+                slackSend channel: '#slack-notifications', 
+                          message: "-Environment: $env",
+                          color: "#FFFF00"
+            }
+        }
+        stage('debug') {
+            steps {
+                sh 'printenv'
+            }
+        }
+        stage('Maven qualapps') {
+            steps {
+                script {
+                    if (env == 'dev' ){
+                        dir ('qualapps') {        
+                            checkout scm
+                            withMaven(
+                                maven: 'Maven 3.6.3',
+                                mavenLocalRepo:  "/var/lib/jenkins/workspace/${JOB_NAME}/.repository"){
+                                sh "mvn clean verify install -Dgoogle.api.key=AIzaSyDgfbPyBO34lbdlRxNvqskS7X4ev9SsJ1k -Dbranch=${JOB_NAME}"
+                            }
+                        }
+                    }
+                }
+            }
+        }  
+        stage ('Copying artifacts') {
+            steps {
+                script {
+                    if (branchName == 'main'){
+                        echo 'main branch detected. Will not update stack' 
+                    } else if (env == 'dev'){
+
+                        sh """/bin/rsync -Pav -e "ssh -i ~/.ssh/cognisite-key.pem" -vog '--rsync-path=sudo rsync' --chown=tomcat8:tomcat8 /var/lib/jenkins/workspace/${JOB_NAME}/qualapps/target/nics3.war ubuntu@cognisite.scout-ca.net:/var/lib/tomcat8/webapps"""
+//                        sh """/bin/rsync -Pav -e "ssh -i ~/.ssh/qualapps_jigish_key.pem" -vog '--rsync-path=sudo rsync' --chown=tomcat8:tomcat8 /var/lib/jenkins/workspace/${JOB_NAME}/qualapps/target/nics3.war ubuntu@dev2.scout-ca.net:/var/lib/tomcat8/webapps"""
+                      }else if (env == 'stage'){
+                    }else if (env == 'prod'){
+                    }
+                }
+            }
+            post {
+                success {
+                    echo 'cloudformation stack updated'
+                }
+            }
+        }
+
+    }
+    post {
+        always {
+            sendNotifications currentBuild.result
+            cleanWs()
+        }
+    }
+}
